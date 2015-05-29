@@ -12,14 +12,22 @@ public class testJuego {
 	Singleton single = new Singleton();
 
 	@Test
-	public void testJuego() {
+	public void testPiedraContraPiedra() {
 		
 		Peleable otraPiedra = single.getPiedra();
 		piedra = single.getPiedra();
 		
 		Assert.assertEquals(piedra,otraPiedra);
 		
-		System.out.println("");
+	}
+	
+	@Test
+	public void testPiedraContraPapel() {
+		
+		papel = single.getPapel();
+		piedra = single.getPiedra();
+		
+		Assert.assertEquals(papel,piedra.vs(papel));
 		
 	}
 

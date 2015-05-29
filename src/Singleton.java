@@ -2,15 +2,22 @@
 public class Singleton {
 	
 	private Peleable piedraUnica;
+	private Peleable papelUnico;
 	
-	public Singleton(){
+     Singleton(){
 		
 		this.piedraUnica = new Piedra();
+		this.papelUnico =  new Papel();
 	}
 
 	public Peleable getPiedra() {
 		
 		return (this.piedraUnica);
+	}
+
+	public Peleable getPapel() {
+		
+		return (this.papelUnico);
 	}
 	
 	

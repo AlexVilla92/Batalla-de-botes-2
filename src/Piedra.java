@@ -6,5 +6,10 @@ public class Piedra implements Peleable {
 		
 		return (this);
 	}
+	
+	public Peleable vs(Papel unPapel){
+		
+		return (unPapel);
+	}
 
 }
