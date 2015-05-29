@@ -19,6 +19,8 @@ public class testJuego {
 		
 		Assert.assertEquals(piedra,otraPiedra);
 		
+		System.out.println("");
+		
 	}
 
 }
