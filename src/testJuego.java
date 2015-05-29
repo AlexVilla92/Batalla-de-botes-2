@@ -30,5 +30,13 @@ public class testJuego {
 		Assert.assertEquals(papel,piedra.vs(papel));
 		
 	}
-
+	@Test
+	public void testPapelContraPiedra() {
+		
+		papel = single.getPapel();
+		piedra = single.getPiedra();
+		
+		Assert.assertEquals(papel,papel.vs(piedra));
+		
+	}
 }

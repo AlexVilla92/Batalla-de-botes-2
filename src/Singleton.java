@@ -19,7 +19,5 @@ public class Singleton {
 		
 		return (this.papelUnico);
 	}
-	
-	
 
 }
