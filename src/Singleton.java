@@ -6,7 +6,7 @@ public class Singleton {
 	
      Singleton(){
 		
-		this.piedraUnica = new Piedra();
+	//	this.piedraUnica = new Piedra(); Como ahora lo puse privado
 		this.papelUnico =  new Papel();
 	}
 

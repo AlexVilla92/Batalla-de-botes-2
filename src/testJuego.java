@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class testJuego {
 	
-	private Peleable piedra;
+//	private Peleable piedra;
 	private Peleable papel;
 	private Peleable tijera;
 	
@@ -14,9 +14,10 @@ public class testJuego {
 	@Test
 	public void testPiedraContraPiedra() {
 		
-		Peleable otraPiedra = single.getPiedra();
-		piedra = single.getPiedra();
-		
+		//Peleable otraPiedra = single.getPiedra();
+		//piedra = single.getPiedra();
+		Peleable piedra = Piedra.getPiedra(); //metodo de clase
+		Peleable otraPiedra = Piedra.getPiedra();
 		Assert.assertEquals(piedra,otraPiedra);
 		
 	}
@@ -24,9 +25,9 @@ public class testJuego {
 	@Test
 	public void testPiedraContraPapel() {
 		
-		papel = single.getPapel();
-		piedra = single.getPiedra();
-		
+	//	papel = single.getPapel();
+	//	piedra = single.getPiedra();
+		Piedra piedra = Piedra.getPiedra();
 		Assert.assertEquals(papel,piedra.vs(papel));
 		
 	}
@@ -34,7 +35,7 @@ public class testJuego {
 	public void testPapelContraPiedra() {
 		
 		papel = single.getPapel();
-		piedra = single.getPiedra();
+		Peleable piedra = Piedra.getPiedra(); //metodo de clase
 		
 		Assert.assertEquals(papel,papel.vs(piedra));
 		
