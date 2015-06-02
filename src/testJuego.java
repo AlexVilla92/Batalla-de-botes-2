@@ -11,13 +11,12 @@ public class testJuego {
 	
 	Singleton single = new Singleton();
 
-	@Test
 	public void testPiedraContraPiedra() {
 		
 		//Peleable otraPiedra = single.getPiedra();
 		//piedra = single.getPiedra();
-		Peleable piedra = Piedra.getPiedra(); //metodo de clase
-		Peleable otraPiedra = Piedra.getPiedra();
+		//ndedkwekdwjkdjk
+		Peleable otraPiedra = /* fhfhf*/Piedra.getPiedra();
 		Assert.assertEquals(piedra,otraPiedra);
 		
 	}
