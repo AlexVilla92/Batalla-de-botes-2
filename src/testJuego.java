@@ -6,8 +6,6 @@ public class testJuego {
 	
 //	private Peleable piedra;
 	private Peleable papel;
-	@SuppressWarnings("unused")
-	private Peleable tijera;
 	
 	Singleton single = new Singleton();
 
@@ -18,6 +16,7 @@ public class testJuego {
 		//ndedkwekdwjkdjk
 		Peleable otraPiedra = /* fhfhf*/Piedra.getPiedra();
 		Assert.assertEquals(otraPiedra,otraPiedra);
+		Assert.asserEquals(1,1);
 		
 	}
 	
