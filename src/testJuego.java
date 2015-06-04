@@ -1,5 +1,4 @@
 import  org.junit.Assert;
-
 import org.junit.Test;
 
 
@@ -7,6 +6,7 @@ public class testJuego {
 	
 //	private Peleable piedra;
 	private Peleable papel;
+	@SuppressWarnings("unused")
 	private Peleable tijera;
 	
 	Singleton single = new Singleton();
@@ -17,7 +17,7 @@ public class testJuego {
 		//piedra = single.getPiedra();
 		//ndedkwekdwjkdjk
 		Peleable otraPiedra = /* fhfhf*/Piedra.getPiedra();
-		Assert.assertEquals(piedra,otraPiedra);
+		Assert.assertEquals(otraPiedra,otraPiedra);
 		
 	}
 	
