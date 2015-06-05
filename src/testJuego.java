@@ -14,9 +14,10 @@ public class testJuego {
 		//Peleable otraPiedra = single.getPiedra();
 		//piedra = single.getPiedra();
 		//ndedkwekdwjkdjk
+		int i = 1;
 		Peleable otraPiedra = /* fhfhf*/Piedra.getPiedra();
 		Assert.assertEquals(otraPiedra,otraPiedra);
-		Assert.asserEquals(1,1);
+		Assert.asserEquals(1,i);
 		
 	}
 	
@@ -31,7 +32,7 @@ public class testJuego {
 	}
 	@Test
 	public void testPapelContraPiedra() {
-		
+	
 		papel = single.getPapel();
 		Peleable piedra = Piedra.getPiedra(); //metodo de clase
 		
