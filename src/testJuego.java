@@ -14,7 +14,7 @@ public class testJuego {
 		//Peleable otraPiedra = single.getPiedra();
 		//piedra = single.getPiedra();
 		//ndedkwekdwjkdjk
-		String pepe = "peep";
+		String pepe = "pepe";
 		int w = 4;
 		Peleable otraPiedra = /* fhfhf*/Piedra.getPiedra();
 		Assert.assertEquals(otraPiedra,otraPiedra);
