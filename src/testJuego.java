@@ -14,10 +14,12 @@ public class testJuego {
 		//Peleable otraPiedra = single.getPiedra();
 		//piedra = single.getPiedra();
 		//ndedkwekdwjkdjk
-		int j = 1;
+		String pepe = "peep";
+		int w = 4;
 		Peleable otraPiedra = /* fhfhf*/Piedra.getPiedra();
 		Assert.assertEquals(otraPiedra,otraPiedra);
-		Assert.assertEquals(1,j);
+		Assert.assertEquals(4,w);
+		Assert.assertEquals("pepe",pepe);
 		
 	}
 	
